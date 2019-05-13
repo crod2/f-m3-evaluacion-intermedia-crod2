@@ -1,4 +1,5 @@
 import React from 'react';
+import PokeList from './components/PokeList';
 import './App.css';
 
 const pokemon = [
@@ -19,19 +20,7 @@ class App extends React.Component {
     return (
       <div className="pokemon__container">
         <h1 className="title">Mi lista de Pokemon</h1>
-        <ul className="pokemon__list">
-            {pokemon.map((poke) => 
-            <li key={poke.id}>
-              <div className="cards">
-                <h2 className="card__name">{poke.name}</h2>
-                <img src={poke.url} alt="imagen de pokemons" className="card__img"/>
-                {poke.types.map((type, index) => 
-                  <h3 className="card__type" key={index}>{type}</h3>
-                  )}
-              </div>
-            </li>
-            )}
-        </ul>
+        <PokeList pokemon ={pokemon}/>
       </div>
     );
   };
