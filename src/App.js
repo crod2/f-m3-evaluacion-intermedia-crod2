@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div className="pokemon__container">
         <h1 className="title">Mi lista de Pokemon</h1>
-        <PokeList pokemon ={pokemon}/>
+        <PokeList pokemon={pokemon}/>
       </div>
     );
   };
