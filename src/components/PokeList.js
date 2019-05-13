@@ -9,7 +9,7 @@ class PokeList extends React.Component {
       <ul className="pokemon__list">
       {pokemon.map((poke) =>
         <li key={poke.id}>
-          <Pokemon name={poke.name} url={poke.url} types={poke.types}/>
+          <Pokemon url={poke.url} name={poke.name} types={poke.types}/>
         </li>
       )}
     </ul>
