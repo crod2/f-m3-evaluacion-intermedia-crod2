@@ -12,10 +12,9 @@ class PokeList extends React.Component {
           <Pokemon url={poke.url} name={poke.name} types={poke.types}/>
         </li>
       )}
-    </ul>
+      </ul>
     )
   }
- 
 }
 
 PokeList.propTypes = {
