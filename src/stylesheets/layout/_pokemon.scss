@@ -1,7 +1,38 @@
+.cards {
+  height: 220px;
+  width: 150px;
+  margin: 5px;
+  border: 1px solid grey;
+  border-radius: 5%;
+  background: lightblue;
+}
+
+.card__img {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card__name {
+  margin: 15px 0 15px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: capitalize;
 }
 
-.card__type {
+.card__list {
+  padding: 0;
+}
+
+.list__type {
+  list-style: none;
+  background: grey;
+  border-radius: 10%;
+  margin: 0 6px 0 6px;
+  display: inline-block;
   text-transform: uppercase;
 }
