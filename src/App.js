@@ -1,6 +1,6 @@
 import React from 'react';
 import PokeList from './components/PokeList';
-import './stylesheets/App.css';
+import './stylesheets/App.scss';
 
 const pokemon = [
   {"id":1,"name":"bulbasaur","types":["poison","grass"],"evolution":null,"url":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"},
